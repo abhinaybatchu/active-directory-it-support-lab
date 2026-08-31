@@ -1,0 +1,31 @@
+# VMware virtual machine files
+*.vmdk
+*.vmem
+*.vmss
+*.vmsn
+*.vmsd
+*.vmx
+*.nvram
+*.lck
+
+# ISO installation media
+*.iso
+
+# VMware logs
+vmware.log
+vmware-*.log
+
+# Windows temporary files
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+
+# Secrets / credentials
+*.key
+*.pem
+*.pfx
+*.p12
+.env
