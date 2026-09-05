@@ -1,31 +1,48 @@
-# VMware virtual machine files
-*.vmdk
-*.vmem
-*.vmss
-*.vmsn
-*.vmsd
+# VMware
 *.vmx
+*.vmxf
+*.vmdk
 *.nvram
+*.vmsd
+*.vmsn
+*.vmss
 *.lck
-
-# ISO installation media
-*.iso
 
 # VMware logs
 vmware.log
 vmware-*.log
 
-# Windows temporary files
+# ISO / installation media
+*.iso
+
+# Windows system files
 Thumbs.db
 Desktop.ini
 
-# Temporary files
+# VS Code local settings
+.vscode/
+
+# Temporary / backup files
 *.tmp
 *.temp
+*.bak
+*.swp
+*.swo
 
-# Secrets / credentials
+# Environment / secret files
+.env
+.env.*
 *.key
 *.pem
 *.pfx
 *.p12
-.env
+
+# Recovery / credential files
+credentials.txt
+secrets.txt
+recovery.txt
+passwords.txt
+
+# OS crash / memory files
+*.dmp
+*.dump

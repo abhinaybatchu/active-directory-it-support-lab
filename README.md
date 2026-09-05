@@ -645,17 +645,8 @@ active-directory-it-support-lab/
 ├── 02-screenshots/
 │   └── Sanitized project evidence
 │
-├── 03-scripts/
-│   └── Scripts created for the project when applicable
-│
-├── 04-sample-logs/
-│   └── Sanitized sample logs when applicable
-│
-├── 05-reports/
-│   └── Final project report
-│
-└── 06-assets/
-    └── Supporting project assets
+├── 03-reports/
+    └── Final project report
 ```
 
 The repository does not contain virtual machine files, operating-system installation media, passwords, recovery credentials, product keys, or other secrets.
