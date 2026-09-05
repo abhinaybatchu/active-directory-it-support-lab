@@ -641,8 +641,8 @@ Repeated authentication failures can represent either a legitimate user problem 
 For example:
 
 ```text
-Five failures
-→ legitimate user mistyping password
+Five failures from a known user's workstation
+→ may indicate legitimate password mistyping
 
 Hundreds of failures across many accounts
 → possible password spraying
