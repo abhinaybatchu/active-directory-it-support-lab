@@ -191,13 +191,13 @@ The configuration demonstrates:
 
 ### Synthetic Users
 
-`02-screenshots/06-ad-synthetic-users.png`
+[Open Screenshot](../02-screenshots/06-ad-synthetic-users.png)
 
 Shows the four synthetic departmental user accounts created in the Abhinay Labs Active Directory environment.
 
 ### Security Groups and AGDLP Structure
 
-`02-screenshots/07-ad-security-groups-agdlp.png`
+[Open Screenshot](../02-screenshots/07-ad-security-groups-agdlp.png)
 
 Shows the Global and Domain Local security groups created for departmental membership, Help Desk delegation, and AGDLP-based resource authorization.
 

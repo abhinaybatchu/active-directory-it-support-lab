@@ -883,9 +883,7 @@ Domain controllers also generate important authentication and account-management
 
 File:
 
-```text
-02-screenshots/10-domain-controllers-dc01-dc02.png
-```
+[Open Screenshot](../02-screenshots/10-domain-controllers-dc01-dc02.png)
 
 Description:
 
@@ -897,9 +895,7 @@ Description:
 
 File:
 
-```text
-02-screenshots/11-ad-replication-health.png
-```
+[Open Screenshot](../02-screenshots/11-ad-replication-health.png)
 
 Description:
 
@@ -911,9 +907,7 @@ Description:
 
 File:
 
-```text
-02-screenshots/12-dc02-domain-failover.png
-```
+[Open Screenshot](../02-screenshots/12-dc02-domain-failover.png)
 
 Description:
 

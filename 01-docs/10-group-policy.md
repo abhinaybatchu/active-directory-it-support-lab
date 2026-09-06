@@ -1066,9 +1066,7 @@ The lab used validation and targeted diagnostics instead of disabling security f
 
 File:
 
-```text
-02-screenshots/15-domain-password-lockout-policy.png
-```
+[Open Screenshot](../02-screenshots/15-domain-password-lockout-policy.png)
 
 Description:
 
@@ -1080,9 +1078,7 @@ Description:
 
 File:
 
-```text
-02-screenshots/16-workstation-gpo-logon-banner.png
-```
+[Open Screenshot](../02-screenshots/16-workstation-gpo-logon-banner.png)
 
 Description:
 
@@ -1094,9 +1090,7 @@ Description:
 
 File:
 
-```text
-02-screenshots/17-hr-user-gpo-restriction.png
-```
+[Open Screenshot](../02-screenshots/17-hr-user-gpo-restriction.png)
 
 Description:
 

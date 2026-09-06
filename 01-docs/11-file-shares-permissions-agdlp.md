@@ -1042,9 +1042,7 @@ Hard-coding privileged credentials is unnecessary and introduces security risk.
 
 File:
 
-```text
-02-screenshots/18-agdlp-hr-resource-permissions.png
-```
+[Open Screenshot](../02-screenshots/18-agdlp-hr-resource-permissions.png)
 
 Description:
 
@@ -1056,9 +1054,7 @@ Description:
 
 File:
 
-```text
-02-screenshots/19-hr-authorized-finance-denied.png
-```
+[Open Screenshot](../02-screenshots/19-hr-authorized-finance-denied.png)
 
 Description:
 
@@ -1070,9 +1066,7 @@ Description:
 
 File:
 
-```text
-02-screenshots/20-hr-gpo-drive-mapping.png
-```
+[Open Screenshot](../02-screenshots/20-hr-gpo-drive-mapping.png)
 
 Description:
 

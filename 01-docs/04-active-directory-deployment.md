@@ -140,10 +140,10 @@ The DSRM credential is not stored in the public project repository.
 
 ## Evidence
 
-`02-screenshots/03-dc01-ad-ds-dns-roles.png`
+[Open Screenshot](../02-screenshots/03-dc01-ad-ds-dns-roles.png)
 
 DC01 operating with Active Directory Domain Services and DNS roles.
 
-`02-screenshots/04-abhinaylabs-domain-created.png`
+[Open Screenshot](../02-screenshots/04-abhinaylabs-domain-created.png)
 
 The `abhinaylabs.internal` domain and DC01 Domain Controller object displayed in Active Directory Users and Computers.

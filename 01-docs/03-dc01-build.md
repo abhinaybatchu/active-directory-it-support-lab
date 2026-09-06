@@ -131,6 +131,6 @@ Microsoft Defender Antivirus real-time protection and Microsoft Defender Firewal
 
 ## Evidence
 
-`02-screenshots/02-dc01-server-identity.png`
+[Open Screenshot](../02-screenshots/02-dc01-server-identity.png)
 
 The screenshot documents DC01 after server identity, static IPv4 configuration, time-zone configuration, and Windows updates were completed.

@@ -523,41 +523,31 @@ For this lab, successful recovery was validated using the active domain-user ses
 
 Domain account-lockout policy requires five invalid authentication attempts before lockout, and Active Directory confirms that the synthetic HR account `dmiller` became locked after five failed sign-in attempts.
 
-```text
-02-screenshots/24-account-lockout-validation.png
-```
+[Open Screenshot](../02-screenshots/24-account-lockout-validation.png)
 
 ### Figure 25 — Active Directory Account Lockout Event
 
 DC01 Security Event 4740 records the lockout of the synthetic HR account `dmiller` and identifies `CLIENT01` as the caller computer, correlating the account lockout with the workstation used for the controlled failed-logon test.
 
-```text
-02-screenshots/25-account-lockout-event-4740.png
-```
+[Open Screenshot](../02-screenshots/25-account-lockout-event-4740.png)
 
 ### Figure 26 — Failed Interactive Logon Investigation
 
 CLIENT01 Security Event 4625 records repeated failed interactive logons for `ABHINAYLABS\dmiller`. Five audit failures correspond with the configured five-attempt domain lockout threshold, while the selected event identifies Logon Type 2, an incorrect-password failure (`0xC000006A`), and CLIENT01 as the affected workstation.
 
-```text
-02-screenshots/26-failed-logon-event-4625.png
-```
+[Open Screenshot](../02-screenshots/26-failed-logon-event-4625.png)
 
 ### Figure 27 — Help Desk Account Recovery
 
 Following investigation of the repeated authentication failures and account lockout, the delegated `helpdesk1` account performed password recovery for the synthetic HR user David Miller from CLIENT01 without requiring Domain Administrator privileges.
 
-```text
-02-screenshots/27-helpdesk-account-recovery.png
-```
+[Open Screenshot](../02-screenshots/27-helpdesk-account-recovery.png)
 
 ### Figure 28 — Post-Recovery Authentication Validation
 
 Following Help Desk account recovery, `ABHINAYLABS\dmiller` successfully authenticated to CLIENT01 using DC01 as the logon server, while Active Directory validation confirmed that the account was enabled, no longer locked, and had a bad-password count of zero.
 
-```text
-02-screenshots/28-post-recovery-authentication.png
-```
+[Open Screenshot](../02-screenshots/28-post-recovery-authentication.png)
 
 ---
 

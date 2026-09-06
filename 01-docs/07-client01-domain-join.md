@@ -249,13 +249,13 @@ When a workstation cannot locate or join an Active Directory domain, DNS configu
 
 ### CLIENT01 Computer Object
 
-`02-screenshots/08-client01-domain-joined.png`
+[Open Screenshot](../02-screenshots/08-client01-domain-joined.png)
 
 Shows CLIENT01 successfully joined to the `abhinaylabs.internal` domain and organized within the `Corp\Workstations` OU.
 
 ### Domain User Authentication
 
-`02-screenshots/09-domain-user-authentication.png`
+[Open Screenshot](../02-screenshots/09-domain-user-authentication.png)
 
 Shows David Miller authenticated as `abhinaylabs\dmiller`, CLIENT01 joined to `abhinaylabs.internal`, and DC01 identified as the user's logon server.
 

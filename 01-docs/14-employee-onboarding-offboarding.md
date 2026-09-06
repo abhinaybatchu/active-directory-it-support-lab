@@ -536,9 +536,7 @@ Account disablement and access-group removal are therefore important security co
 
 ## Figure 29 — Employee Onboarding and Access Provisioning
 
-```text
-02-screenshots/29-employee-onboarding-account-provisioning.png
-```
+[Open Screenshot](../02-screenshots/29-employee-onboarding-account-provisioning.png)
 
 > A new synthetic Finance employee, Sophia Carter (`scarter`), was provisioned in the Finance OU and assigned to `GG_Finance_Users`, integrating the account into the existing departmental AGDLP access model.
 
@@ -546,9 +544,7 @@ Account disablement and access-group removal are therefore important security co
 
 ## Figure 30 — Onboarding Access Validation
 
-```text
-02-screenshots/30-onboarding-access-validation.png
-```
+[Open Screenshot](../02-screenshots/30-onboarding-access-validation.png)
 
 > `ABHINAYLABS\scarter` successfully authenticated to CLIENT01, received Finance security-group membership in the user token, accessed the authorized `\\DC01\Finance` share with write capability, and was denied access to the HR departmental share.
 
@@ -556,9 +552,7 @@ Account disablement and access-group removal are therefore important security co
 
 ## Figure 31 — Employee Offboarding and Access Revocation
 
-```text
-02-screenshots/31-employee-offboarding-account-disabled.png
-```
+[Open Screenshot](../02-screenshots/31-employee-offboarding-account-disabled.png)
 
 > Sophia Carter's account was disabled, removed from `GG_Finance_Users`, and moved to the `Disabled-Users` OU. PowerShell validation confirms the account is disabled and retains only its standard `Domain Users` membership.
 
@@ -566,9 +560,7 @@ Account disablement and access-group removal are therefore important security co
 
 ## Figure 32 — Disabled Account Authentication Denied
 
-```text
-02-screenshots/32-disabled-account-logon-denied.png
-```
+[Open Screenshot](../02-screenshots/32-disabled-account-logon-denied.png)
 
 > A controlled CLIENT01 sign-in attempt confirmed that the offboarded `scarter` domain account could no longer authenticate after account disablement and departmental access revocation.
 

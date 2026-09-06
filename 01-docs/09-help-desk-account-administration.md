@@ -758,9 +758,7 @@ Real enterprise users should have individual private passwords, and Help Desk pe
 
 File:
 
-```text
-02-screenshots/13-helpdesk-account-created.png
-```
+[Open Screenshot](../02-screenshots/13-helpdesk-account-created.png)
 
 Description:
 
@@ -772,9 +770,7 @@ Description:
 
 File:
 
-```text
-02-screenshots/14-helpdesk-security-group-membership.png
-```
+[Open Screenshot](../02-screenshots/14-helpdesk-security-group-membership.png)
 
 Description:
 

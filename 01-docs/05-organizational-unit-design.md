@@ -139,6 +139,6 @@ The OU design also prepares the environment for later least-privilege Help Desk 
 
 ## Evidence
 
-`02-screenshots/05-ad-ou-structure.png`
+[Open Screenshot](../02-screenshots/05-ad-ou-structure.png)
 
 The screenshot documents the custom Abhinay Labs Organizational Unit hierarchy in Active Directory Users and Computers.

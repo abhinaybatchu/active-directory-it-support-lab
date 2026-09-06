@@ -601,25 +601,19 @@ Routine Help Desk administration remained separate from unrestricted domain admi
 
 `helpdesk1` is assigned to the `GG_IT_Helpdesk` security group, which is delegated the **Reset password** extended right for descendant user objects within the `Corp\Users` OU, implementing group-based least-privilege administration.
 
-```text
-02-screenshots/21-helpdesk-delegation.png
-```
+[Open Screenshot](../02-screenshots/21-helpdesk-delegation.png)
 
 ### Figure 22 — Delegated Password Reset Workflow
 
 `ABHINAYLABS\helpdesk1` uses delegated Active Directory permissions from CLIENT01 to successfully reset David Miller's password and require a password change at the next sign-in, demonstrating a typical Help Desk account-recovery workflow.
 
-```text
-02-screenshots/22-helpdesk-password-reset.png
-```
+[Open Screenshot](../02-screenshots/22-helpdesk-password-reset.png)
 
 ### Figure 23 — Least-Privilege Validation
 
 Group-membership validation confirms `helpdesk1` belongs to `Domain Users` and `GG_IT_Helpdesk` without privileged administrative groups, while broader user-management functionality remains unavailable in ADUC.
 
-```text
-02-screenshots/23-helpdesk-least-privilege.png
-```
+[Open Screenshot](../02-screenshots/23-helpdesk-least-privilege.png)
 
 ---
 

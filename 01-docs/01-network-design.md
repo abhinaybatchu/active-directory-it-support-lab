@@ -1003,9 +1003,7 @@ Passwords, recovery credentials, product keys, VMware encryption information, an
 
 File:
 
-```text
-02-screenshots/01-vmware-ad-lab-network.png
-```
+[Open Screenshot](../02-screenshots/01-vmware-ad-lab-network.png)
 
 Description:
 
